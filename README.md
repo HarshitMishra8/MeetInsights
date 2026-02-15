@@ -2,10 +2,8 @@
 
 Lightweight meeting transcription and summarization UI using Whisper (local) and an Ollama LLM.
 
-Important: the original MIT `LICENSE` file has been removed at your request — this repository now has no license file.
-
 ## What this repository contains
-- `main.py` — Gradio app that converts audio -> transcript (via `whisper.cpp`) and summarizes via an Ollama model.
+- `main.py` — MeetInsights app that converts audio -> transcript (via `whisper.cpp`) and summarizes via an Ollama model.
 - `whisper.cpp/` — local whisper.cpp sources and helper scripts (models are excluded from git).
 - `requirements.txt` — Python dependencies.
 
