@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv
+.venv*/
+venv/
+env/
+ENV/
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Whisper and model binaries
+whisper.cpp/models/
+whisper.cpp/*ggml*.bin
+whisper.cpp/*.bin
+whisper.cpp/build/
+whisper.cpp/bin/
+whisper.cpp/*.exe
+
+# Large datasets / artifacts
+*.pt
+*.ckpt
+*.pth
+
+# Editor
+.vscode/
+.idea/
+.venv
+/flagged
+transcript.txt
+/whisper.cpp
+.DS_Store
